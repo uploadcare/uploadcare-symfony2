@@ -1,4 +1,4 @@
-= Uploadcare Symfony2 Bundle
+# Uploadcare Symfony2 Bundle
 
 This is a bundle for [Symfony2][5] to work with [Uploadcare][1]
 
