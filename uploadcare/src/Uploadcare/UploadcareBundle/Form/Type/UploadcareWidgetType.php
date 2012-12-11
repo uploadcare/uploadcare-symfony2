@@ -6,15 +6,9 @@ use Symfony\Component\Form\FormBuilder;
 use Uploadcare\UploadcareBundle\UploadcareSymfony;
 
 class UploadcareWidgetType extends AbstractType
-{
-	/**
-	 * @var UploadcareSymfony
-	 **/
-	private $api = null;
-	
-	public function __construct($api)
+{	
+	public function __construct()
 	{
-		$this->api = $api;
 	}
 	
 	public function getDefaultOptions(array $options)
