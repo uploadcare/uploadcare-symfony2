@@ -1,0 +1,14 @@
+# Twig Configuration
+twig:
+    form:
+        resources:
+            - 'Uploadcare:UploadcareBundle:Form:fields.html.twig'
+            
+parameters:
+    uploadcare.public_key: demopublickey
+    uploadcare.secret_key: demosecretkey
+    
+services:
+    uploadcare:
+      class: Uploadcare\UploadcareBundle\UploadcareSymfony
+      arguments: [%uploadcare.public_key%, %uploadcare.secret_key%]
