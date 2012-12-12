@@ -13,7 +13,7 @@ It's based on a [uploadcare-php][4] library.
 
 Clone bundle from git to your Symfony/vendor directory:
 
-    git clone git://github.com/uploadcare/uploadcare-symfony2.git vendor/uploadcare
+    git clone git://github.com/uploadcare/uploadcare-symfony2.git vendor/uploadcare --recursive
     
 Edit your app/autoload.php. Add this:
     
