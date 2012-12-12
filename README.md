@@ -125,8 +125,8 @@ With use of this object you can call any operations with file and display the fi
 
     {{ file.resize(400, 400).getImgTag|raw }}
 
-[1]: http://symfony.com/
+[1]: https://uploadcare.com/
 [2]: https://uploadcare.com/documentation/reference/basic/cdn.html
 [3]: https://github.com/uploadcare/uploadcare-wordpress/downloads
 [4]: https://github.com/uploadcare/uploadcare-php
-[5]: http://wordpress.org/
+[5]: http://symfony.com/
