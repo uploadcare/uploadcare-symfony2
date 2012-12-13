@@ -27,7 +27,11 @@ Update "require" section inside your composer.json:
     
 Now tell composer to download package:
 
-    php composer.phar update 
+    php composer.phar update
+    
+Add fetch git submodules:
+  
+    cd vendor/uploadcare/uploadcare-symfony2 && git init && git update 
     
 Edit your app/autoload.php. Add this:
     
