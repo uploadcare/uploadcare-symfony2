@@ -1,5 +1,5 @@
 {
-    "name": "uploadcare/uploadcare",
+    "name": "uploadcare/uploadcare-symfony2",
     "description": "Official Uploadcare package for Symfony2",
     "homepage": "https://github.com/uploadcare/uploadcare-symfony2",
     "require": {
