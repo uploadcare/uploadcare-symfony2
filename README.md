@@ -11,13 +11,27 @@ It's based on a [uploadcare-php][4] library.
 
 ## Install
 
+### GitHub
+
 Clone bundle from git to your vendor directory:
 
-    git clone git://github.com/uploadcare/uploadcare-symfony2.git vendor/uploadcare --recursive
+    git clone git://github.com/uploadcare/uploadcare-symfony2.git vendor/uploadcare/uploadcare-symfony2 --recursive
+    
+### Composer
+
+Update "require" section inside your composer.json:
+
+    "require": {
+      "uploadcare/uploadcare-symfony2": "dev-master"
+    }   
+    
+Now tell composer to download package:
+
+    php composer.phar update 
     
 Edit your app/autoload.php. Add this:
     
-    $loader->add('Uploadcare', __DIR__.'/../vendor/uploadcare/uploadcare/src');
+    $loader->add('Uploadcare', __DIR__.'/../vendor/uploadcare/uploadcare-symfony2/uploadcare/src');
     
 Inside your app/config/config.yml add:
 
