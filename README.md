@@ -8,6 +8,7 @@ It's based on a [uploadcare-php][4] library.
 
 - Symfony 2.1+
 - PHP 5.3+
+- php-curl
 
 ## Install
 
